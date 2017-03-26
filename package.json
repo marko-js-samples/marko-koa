@@ -1,0 +1,29 @@
+{
+  "name": "marko-koa",
+  "version": "1.0.0",
+  "description": "Marko with Koa example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-refresh": "browser-refresh server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marko-js-samples/marko-koa.git"
+  },
+  "keywords": [
+    "marko",
+    "koa"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marko-js-samples/marko-koa/issues"
+  },
+  "homepage": "https://github.com/marko-js-samples/marko-koa#readme",
+  "dependencies": {
+    "browser-refresh-taglib": "^1.1.0",
+    "koa": "^2.2.0",
+    "marko": "^4.1.3"
+  }
+}

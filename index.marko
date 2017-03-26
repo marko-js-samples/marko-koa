@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>marko-express</title>
+        <link href="/static/reset.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+            rel="stylesheet" type="text/css" media="all"/>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"
+            rel="stylesheet" type="text/css" media="all"/>
+        <link href="/static/style.css" rel="stylesheet" type="text/css" media="all"/>
+    </head>
+    <body>
+        <app-hello name=input.name/>
+        <p>You have ${input.count} messages</p>
+        <ul if(input.colors.length)>
+            <li style="color: ${color}" for(color in data.colors)>${color}</li>
+        </ul>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"/>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"/>
+        <!--
+        Page will automatically refresh any time a template is modified
+        if launched using the browser-refresh Node.js process launcher:
+        https://github.com/patrick-steele-idem/browser-refresh
+        -->
+        <browser-refresh/>
+    </body>
+</html>
