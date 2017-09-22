@@ -1,4 +1,4 @@
-# Sample App: Marko + Koa
+# Sample App: Marko + Koa + Lasso
 
 This sample app illustrates how to integrate Marko with a very basic Koa app.
 For this sample app, we use the streaming API to stream the output of the
